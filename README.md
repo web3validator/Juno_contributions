@@ -1,6 +1,4 @@
 # Juno_contributions
-# Guide_Web_Juno
-
 
 ### web3validator
 ```
