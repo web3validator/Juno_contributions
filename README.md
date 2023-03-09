@@ -17,9 +17,9 @@ web3validator provides much more than security! We are actively participating in
 ## RPC
 ```
 # RPC Mainnet
-http://65.108.66.34:28257
+http://juno.web3validator.info:28257
 # RPC Testnet
-http://65.108.66.34:20087
+http://juno-testnet.web3validator.info:20087
 ```
 
 ## Install binary
@@ -34,17 +34,17 @@ make install
 ```
 ### Genesis
 ```
-wget http://65.108.66.34/genesis_juno.json -O $HOME/.juno/config/genesis.json
+wget http://juno.web3validator.info/genesis_juno.json -O $HOME/.juno/config/genesis.json
 
 ```
 ### Adderbook
 ```
-wget http://65.108.66.34/addrbook_juno.json -O $HOME/.juno/config/addrbook.json
+wget http://juno.web3validator.info/addrbook_juno.json -O $HOME/.juno/config/addrbook.json
 
 ```
 ### You need to install `junod.service`
 ```
-wget http://65.108.66.34/junod.service -P /etc/systemd/system/
+wget http://juno.web3validator.info/junod.service -P /etc/systemd/system/
 
 ```
 If you want to quickly catch up with the network, use this [State Sync](https://github.com/web3validator/Juno_contributions#state-sync)
@@ -71,8 +71,8 @@ sudo systemctl start junod && sudo journalctl -u junod -f --no-hostname -o cat
 </details>
 
   ```
-  SNAP_RPС="http://65.108.66.34:28257"
-  peers="a81c0e466aeaf1e785665f6ecc68bd5ca3d95b0e@65.108.66.34:28256"
+  SNAP_RPС="http://juno.web3validator.info:28257"
+  peers="a81c0e466aeaf1e785665f6ecc68bd5ca3d95b0e@juno.web3validator.info:28256"
   ```
   
   ### Let's put the height and trusthash to the-> `config.toml`
@@ -122,7 +122,7 @@ sudo systemctl start junod && sudo journalctl -u junod -f --no-hostname -o cat
 
 
   ```
-  SNAP_RPС="http://65.108.66.34:20087"
+  SNAP_RPС="http://juno-testnet.web3validator.info:20087"
   peers="a81c0e466aeaf1e785665f6ecc68bd5ca3d95b0e@65.108.66.34:20086"
   ```
 
