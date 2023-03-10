@@ -123,7 +123,7 @@ sudo systemctl start junod && sudo journalctl -u junod -f --no-hostname -o cat
 
   ```
   SNAP_RPС="http://juno-testnet.web3validator.info:20087"
-  peers="a81c0e466aeaf1e785665f6ecc68bd5ca3d95b0e@65.108.66.34:20086"
+  peers="a81c0e466aeaf1e785665f6ecc68bd5ca3d95b0e@juno-testnet.web3validator:20086"
   ```
 
   ### Let's put the height and trusthash to the -> `config.toml`
