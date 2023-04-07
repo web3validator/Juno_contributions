@@ -71,7 +71,7 @@ sudo systemctl start junod && sudo journalctl -u junod -f --no-hostname -o cat
 </details>
 
   ```
-  SNAP_RPС="http://juno.web3validator.info:28257"
+  SNAP_RPC="http://juno.web3validator.info:28257"
   peers="a81c0e466aeaf1e785665f6ecc68bd5ca3d95b0e@juno.web3validator.info:28256"
   ```
   
